@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/bg</item>
+        <item name="android:colorPrimaryDark">@color/bg</item>
+        <item name="android:colorAccent">@color/gold</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:alertDialogTheme">@style/DialogTheme</item>
+    </style>
+    <style name="AppThemeLight" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#FFFFFF</item>
+        <item name="android:colorPrimaryDark">#FFFFFF</item>
+        <item name="android:colorAccent">#1E5EFF</item>
+        <item name="android:windowBackground">#F3F6FC</item>
+        <item name="android:alertDialogTheme">@style/DialogThemeLight</item>
+    </style>
+    <style name="DialogTheme" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">@color/gold</item>
+    </style>
+    <style name="DialogThemeLight" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorAccent">#1E5EFF</item>
+    </style>
+    <style name="AlarmTheme" parent="AppTheme">
+        <item name="android:windowShowWallpaper">false</item>
+    </style>
+</resources>
